@@ -1,14 +1,3 @@
 # lo-cate
-
+A PCB and firmware project to create a simple LoRa capable device with an intergrated IMU. 
 ## PCB Notes
-
-Bom:
-    - LoRa Module 
-    - STM32
-    - Accelerometer 
-    - Buttons
-    - Led's
-    - Real Time Clock 
-    - USB
-    - Programming Headder 
-    - Battery Carrier

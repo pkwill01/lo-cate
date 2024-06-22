@@ -3,4 +3,5 @@
   (lib (name "2024-06-20_09-10-44")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-20_09-10-44.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-21_22-48-27")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-21_22-48-27.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-21_22-59-25")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-21_22-59-25.kicad_sym")(options "")(descr ""))
+  (lib (name "RFM95W-868S2")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/RFM95W-868S2.kicad_sym")(options "")(descr ""))
 )
