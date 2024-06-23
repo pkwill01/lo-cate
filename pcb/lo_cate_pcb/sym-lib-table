@@ -6,4 +6,5 @@
   (lib (name "RFM95W-868S2")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/RFM95W-868S2.kicad_sym")(options "")(descr ""))
   (lib (name "UJ31-CH-3-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/UJ31-CH-3-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "690-005-299-043")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/690-005-299-043.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-06-23_08-34-14")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-23_08-34-14.kicad_sym")(options "")(descr ""))
 )
