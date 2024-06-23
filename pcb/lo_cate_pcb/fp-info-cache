@@ -1,4 +1,4 @@
-23698129511123531
+23718757015557315
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96585,3 +96585,87 @@ Varistor VF
 0
 2
 2
+footprints
+150141M173100_WRE
+
+150141M173100 
+0
+4
+4
+footprints
+150141M173100_WRE-L
+
+150141M173100 
+0
+4
+4
+footprints
+150141M173100_WRE-M
+
+150141M173100 
+0
+4
+4
+footprints
+BMI323_BOS
+
+BMI323 
+0
+14
+14
+footprints
+BMI323_BOS-L
+
+BMI323 
+0
+14
+14
+footprints
+BMI323_BOS-M
+
+BMI323 
+0
+14
+14
+footprints
+CUI_UJ31-CH-3-SMT-TR
+
+
+0
+28
+28
+footprints
+EDAC_690-005-299-043
+
+
+0
+9
+9
+footprints
+PTS 647 SN50 SMTR2 LFS
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+footprints
+PTS 647 SN50 SMTR2 LFS-L
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+footprints
+PTS 647 SN50 SMTR2 LFS-M
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+footprints
+XCVR_RFM95W-868S2
+
+
+0
+16
+16

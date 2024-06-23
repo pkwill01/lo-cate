@@ -3607,7 +3607,7 @@
 		(uuid "03cadc42-6307-447b-8c09-5bf06efaaf3b")
 	)
 	(junction
-		(at 241.3 134.62)
+		(at 234.95 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16cb02c7-e5a9-411b-9e60-e25cea915a76")
@@ -3619,7 +3619,7 @@
 		(uuid "197b755a-e07c-495a-b016-d8ab3af78902")
 	)
 	(junction
-		(at 241.3 137.16)
+		(at 234.95 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2486c8de-6d04-49e8-9c12-f4ff08e39104")
@@ -3631,7 +3631,7 @@
 		(uuid "2e193172-59bd-499c-a6a0-1c1d10da769c")
 	)
 	(junction
-		(at 241.3 132.08)
+		(at 234.95 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f6c87e4-6dee-48ce-9a85-1693f2064eda")
@@ -3667,7 +3667,7 @@
 		(uuid "484d8e81-b028-4144-a4b8-e9e2b80b3d5e")
 	)
 	(junction
-		(at 241.3 129.54)
+		(at 234.95 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b703d08-4571-4290-8c44-27be29892508")
@@ -3788,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 245.11 137.16)
+			(xy 234.95 156.21) (xy 238.76 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 245.11 129.54)
+			(xy 234.95 148.59) (xy 238.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +3888,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 121.92) (xy 241.3 121.92)
+			(xy 238.76 140.97) (xy 234.95 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4218,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 241.3 124.46)
+			(xy 238.76 143.51) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4298,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 119.38) (xy 241.3 119.38)
+			(xy 238.76 138.43) (xy 234.95 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4408,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 241.3 132.08)
+			(xy 238.76 151.13) (xy 234.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 134.62) (xy 245.11 134.62)
+			(xy 234.95 153.67) (xy 238.76 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4538,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 241.3 132.08)
+			(xy 234.95 148.59) (xy 234.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 116.84) (xy 241.3 116.84)
+			(xy 238.76 135.89) (xy 234.95 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4668,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 132.08) (xy 241.3 134.62)
+			(xy 234.95 151.13) (xy 234.95 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4788,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 241.3 139.7)
+			(xy 234.95 156.21) (xy 234.95 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 124.46) (xy 241.3 129.54)
+			(xy 234.95 143.51) (xy 234.95 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4888,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 134.62) (xy 241.3 137.16)
+			(xy 234.95 153.67) (xy 234.95 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5314,7 +5314,7 @@
 		(uuid "3b28bddd-1a49-4d1d-843d-5882d21cddfe")
 	)
 	(label "USB_DM"
-		(at 241.3 116.84 180)
+		(at 234.95 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5380,7 @@
 		(uuid "502dda18-7cae-4fd0-8bb7-0ef118b0ada2")
 	)
 	(label "USB_DP"
-		(at 241.3 119.38 180)
+		(at 234.95 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5941,7 +5941,7 @@
 		(uuid "ec118200-3937-49a5-97fa-0967e5b77390")
 	)
 	(label "USB_ID"
-		(at 241.3 121.92 180)
+		(at 234.95 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6441,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LORA_MISO"
+		(property "Value" "TP_LORA_MISO"
 			(at 137.16 113.5379 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 139.7 115.57 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IMU_MISO"
+		(property "Value" "TP_IMU_MISO"
 			(at 132.08 23.3679 0)
 			(effects
 				(font
@@ -7339,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 134.62 25.4 0)
 			(effects
 				(font
@@ -7598,7 +7598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IMU_MOSI"
+		(property "Value" "TP_IMU_MOSI"
 			(at 176.53 24.6379 0)
 			(effects
 				(font
@@ -7607,7 +7607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 179.07 26.67 0)
 			(effects
 				(font
@@ -7973,7 +7973,7 @@
 	)
 	(symbol
 		(lib_id "690-005-299-043:690-005-299-043")
-		(at 255.27 121.92 0)
+		(at 248.92 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7982,7 +7982,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f0621bf-7895-4496-808d-72336fe4062b")
 		(property "Reference" "J2"
-			(at 261.62 124.4599 0)
+			(at 255.27 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +7991,7 @@
 			)
 		)
 		(property "Value" "690-005-299-043"
-			(at 261.62 126.9999 0)
+			(at 255.27 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,8 +7999,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "690-005-299-043:EDAC_690-005-299-043"
-			(at 255.27 121.92 0)
+		(property "Footprint" "footprints:EDAC_690-005-299-043"
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8028,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8038,7 @@
 			)
 		)
 		(property "MANUFACTURER" "EDAC"
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8048,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.98mm"
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8058,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 255.27 121.92 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 139.7 0)
+		(at 234.95 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8181,7 +8181,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bbef125-4a50-4807-bcbb-2eedb27d4918")
 		(property "Reference" "#PWR022"
-			(at 241.3 146.05 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 144.78 0)
+			(at 234.95 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 139.7 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 139.7 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 139.7 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LORA_MOSI"
+		(property "Value" "TP_LORA_MOSI"
 			(at 190.5 137.1599 90)
 			(effects
 				(font
@@ -9866,7 +9866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:EDAC_690-005-299-043"
 			(at 185.42 140.97 0)
 			(effects
 				(font
