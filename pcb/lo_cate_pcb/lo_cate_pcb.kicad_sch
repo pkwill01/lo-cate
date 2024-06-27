@@ -806,30 +806,30 @@
 				)
 			)
 		)
-		(symbol "2024-06-24_09-28-13:U.FL-R-SMT-110"
+		(symbol "2024-06-27_09-08-45:734120114"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "U.FL-R-SMT-110"
-				(at 0 0 0)
+			(property "Value" "734120114"
+				(at 25.4 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "CONN1_UFL-R_HIR"
+			(property "Footprint" "73412-0114_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -839,7 +839,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "U.FL-R-SMT-110"
+			(property "Datasheet" "734120114"
 				(at 0 0 0)
 				(effects
 					(font
@@ -866,7 +866,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "U.FL-R-SMT-1(10)"
+			(property "ki_keywords" "734120114"
 				(at 0 0 0)
 				(effects
 					(font
@@ -875,7 +875,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN1_UFL-R_HIR"
+			(property "ki_fp_filters" "73412-0114_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -884,10 +884,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "U.FL-R-SMT-110_1_1"
+			(symbol "734120114_0_1"
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 12.7 -2.54)
+						(xy 7.62 -7.62) (xy 43.18 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -899,7 +899,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
+						(xy 7.62 5.08) (xy 7.62 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -911,7 +911,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
+						(xy 43.18 -7.62) (xy 43.18 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -923,7 +923,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
+						(xy 43.18 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -933,46 +933,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(length 7.62)
+					(name "SIGNAL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -987,103 +951,53 @@
 						)
 					)
 				)
-			)
-			(symbol "U.FL-R-SMT-110_1_2"
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+				(pin power_out line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "GROUND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4249,6 +4163,12 @@
 		(uuid "4470d688-9ca7-4494-ab6e-09fa76e7efea")
 	)
 	(junction
+		(at 224.79 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4494ecfb-2982-4473-bef0-de355a0754e5")
+	)
+	(junction
 		(at 62.23 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4404,6 +4324,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a931d5-b27a-4b88-a795-c1c4542cfb52")
+	)
+	(wire
+		(pts
 			(xy 260.35 44.45) (xy 264.16 44.45)
 		)
 		(stroke
@@ -4474,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 127) (xy 157.48 127)
+			(xy 153.67 127) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
@@ -4521,6 +4451,16 @@
 			(type default)
 		)
 		(uuid "164dbbad-fccf-4590-9773-828fa245b9d3")
+	)
+	(wire
+		(pts
+			(xy 222.25 127) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1715e30d-812c-4ba1-a735-8c25da4875ab")
 	)
 	(wire
 		(pts
@@ -4694,6 +4634,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 127) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a56a594-f4c6-48f2-bb94-f93478b75a2e")
+	)
+	(wire
+		(pts
 			(xy 80.01 121.92) (xy 83.82 121.92)
 		)
 		(stroke
@@ -4761,6 +4711,16 @@
 			(type default)
 		)
 		(uuid "340e06b6-35f6-4b1d-92d3-98134c286107")
+	)
+	(wire
+		(pts
+			(xy 224.79 129.54) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36920354-1101-4ebf-adeb-227d322941d6")
 	)
 	(wire
 		(pts
@@ -5461,6 +5421,16 @@
 			(type default)
 		)
 		(uuid "bb1a6b09-cc5d-47c1-a30c-fe9474a0aba0")
+	)
+	(wire
+		(pts
+			(xy 222.25 129.54) (xy 224.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb55eb62-7627-45a1-86f6-0825b5287c2a")
 	)
 	(wire
 		(pts
@@ -7269,6 +7239,82 @@
 		)
 	)
 	(symbol
+		(lib_id "2024-06-27_09-08-45:734120114")
+		(at 171.45 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b8e794-a03b-4a58-af29-e5a2ec409c85")
+		(property "Reference" "U8"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "734120114"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:73412-0114_MOL"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "734120114"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "687d9d5e-a9c8-49d4-9934-1c605d41fc97")
+		)
+		(pin "2"
+			(uuid "ffb00f2f-9d87-4c14-9a4f-55a55a31b160")
+		)
+		(pin "4"
+			(uuid "1ecffe39-4d5b-4b41-9e05-703438e5ddd2")
+		)
+		(pin "3"
+			(uuid "e85b5fe2-45c9-4bd3-9f0e-79d5112364ed")
+		)
+		(instances
+			(project ""
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 30.48 168.91 270)
 		(unit 1)
@@ -8621,6 +8667,73 @@
 			(project "lo_cate_pcb"
 				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5160cedd-c787-4f60-b94d-5fd0a208eea4")
+		(property "Reference" "#PWR025"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8eb9bf2-2fd8-4227-93ba-d9f37ad825b4")
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10130,75 +10243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-06-24_09-28-13:U.FL-R-SMT-110")
-		(at 157.48 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3d3e5f9-1575-4a04-8eef-27646dd08f21")
-		(property "Reference" "J3"
-			(at 171.45 125.7299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "U.FL-R-SMT-110"
-			(at 171.45 128.2699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CONN1_UFL-R_HIR"
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "U.FL-R-SMT-110"
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52c0d7be-ff43-4600-8d8b-a1c8083439cd")
-		)
-		(instances
-			(project ""
-				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 257.81 26.67 90)
 		(unit 1)
@@ -10338,6 +10382,73 @@
 			(project ""
 				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad7ea293-7566-423d-8df2-7240fb629858")
+		(property "Reference" "#PWR026"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca18043-6197-4113-a816-ce7fdc6e8290")
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

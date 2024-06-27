@@ -8,4 +8,5 @@
   (lib (name "690-005-299-043")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/690-005-299-043.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-23_08-34-14")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-23_08-34-14.kicad_sym")(options "")(descr ""))
   (lib (name "2024-06-24_09-28-13")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-24_09-28-13.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-06-27_09-08-45")(type "KiCad")(uri "${KIPRJMOD}/footprint_libs/2024-06-27_09-08-45.kicad_sym")(options "")(descr ""))
 )
