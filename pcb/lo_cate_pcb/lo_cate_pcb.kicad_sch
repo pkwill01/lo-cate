@@ -4289,6 +4289,14 @@
 		(uuid "ff3a1ba1-e343-465f-85df-184f99d63916")
 	)
 	(no_connect
+		(at 130.81 38.1)
+		(uuid "5e746aad-c829-40e2-bbf1-a3bf06211348")
+	)
+	(no_connect
+		(at 171.45 43.18)
+		(uuid "7372da7c-eb99-459c-b570-13a4bcc246eb")
+	)
+	(no_connect
 		(at 118.11 134.62)
 		(uuid "a8fa4630-9717-4006-9410-1615bf6251a5")
 	)
@@ -4481,16 +4489,6 @@
 			(type default)
 		)
 		(uuid "17c1a1d1-7e2a-40a6-95c4-27154d9d1b95")
-	)
-	(wire
-		(pts
-			(xy 171.45 43.18) (xy 177.8 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f39a49-4c18-41c6-93d2-ccd2cd97c7ed")
 	)
 	(wire
 		(pts
@@ -5364,6 +5362,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 156.21) (xy 72.39 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf3f113-4d22-4b5a-bd1d-7836f3c77b0d")
+	)
+	(wire
+		(pts
 			(xy 80.01 132.08) (xy 83.82 132.08)
 		)
 		(stroke
@@ -5501,16 +5509,6 @@
 			(type default)
 		)
 		(uuid "c40fc430-ed57-4969-aa5e-514519a8bfe9")
-	)
-	(wire
-		(pts
-			(xy 127 38.1) (xy 130.81 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c71be8ea-0f43-470f-a7b2-ea2ff70edf9f")
 	)
 	(wire
 		(pts
@@ -5704,6 +5702,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 156.21) (xy 91.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e408e40c-b610-486e-bbfb-8af49c71e169")
+	)
+	(wire
+		(pts
 			(xy 171.45 30.48) (xy 173.99 30.48)
 		)
 		(stroke
@@ -5842,6 +5850,16 @@
 		)
 		(uuid "fe828695-225e-49a4-aaab-fe96398d6af9")
 	)
+	(wire
+		(pts
+			(xy 107.95 156.21) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c4135-0584-4eae-aec3-946c5f7172e8")
+	)
 	(label "BUTTON1"
 		(at 83.82 132.08 0)
 		(fields_autoplaced yes)
@@ -5953,7 +5971,7 @@
 		(uuid "316c1423-b312-45bb-b34a-88dd66a5ccdc")
 	)
 	(label "BUTTON2"
-		(at 91.44 165.1 90)
+		(at 91.44 156.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6052,7 +6070,7 @@
 		(uuid "3decd4c4-92af-4220-962a-dac8d7107bbd")
 	)
 	(label "BUTTON3"
-		(at 107.95 165.1 90)
+		(at 107.95 156.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6182,17 +6200,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a7a599c-da42-4261-b360-2bd3c825923f")
-	)
-	(label "IMU_INT1"
-		(at 127 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6cd8e51a-d8ec-4285-929c-38c73bdf59ee")
 	)
 	(label "NRST"
 		(at 128.27 91.44 0)
@@ -6491,17 +6498,6 @@
 		)
 		(uuid "bb748aa9-e689-431f-ae1d-eb3404f41462")
 	)
-	(label "IMU_INT2"
-		(at 177.8 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb962f05-cd94-4099-80fa-64d32ce64d3c")
-	)
 	(label "LORA_SCK"
 		(at 114.3 124.46 180)
 		(fields_autoplaced yes)
@@ -6646,7 +6642,7 @@
 		(uuid "e2e62ca9-d48e-4cde-89d4-05738b303b3f")
 	)
 	(label "BUTTON1"
-		(at 72.39 165.1 90)
+		(at 72.39 156.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7166,6 +7162,70 @@
 			(project "lo_cate_pcb"
 				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e135c45-b407-4533-9d91-de7c24b9b3b9")
+		(property "Reference" "H2"
+			(at 165.1 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 165.1 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7733,6 +7793,76 @@
 			(project ""
 				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "230c8d60-3eeb-4ef5-aa4a-d84b88d8b328")
+		(property "Reference" "R11"
+			(at 74.93 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 74.93 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.168 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31d6835-2f18-438a-babd-c3e37595c70f")
+		)
+		(pin "2"
+			(uuid "367c8ce3-e283-4b48-952e-680a5e6bb6a8")
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10108,6 +10238,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 107.95 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2a9378-cac3-4cd6-89a4-0d9686b70453")
+		(property "Reference" "R13"
+			(at 110.49 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 110.49 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 109.728 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83409bf8-5db0-4ecc-98db-63daa66a32d1")
+		)
+		(pin "2"
+			(uuid "9e50e833-957b-479c-8cdc-1bfd4ecd68cf")
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 58.42 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10449,6 +10649,76 @@
 			(project "lo_cate_pcb"
 				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aff4b8cc-be94-4604-9e87-7cbba6aa080b")
+		(property "Reference" "R12"
+			(at 93.98 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 93.98 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.218 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9a880e6-cd6b-42bb-a5e6-bf8f87b7f419")
+		)
+		(pin "2"
+			(uuid "1ff7e2f0-9b83-431a-8566-7669207ef5ea")
+		)
+		(instances
+			(project "lo_cate_pcb"
+				(path "/5b660261-c284-42c1-a5d0-7f0ee97be270"
+					(reference "R12")
 					(unit 1)
 				)
 			)
