@@ -1831,7 +1831,7 @@
 			(uuid "8b4ffcb9-4244-4dc8-b775-388987f791ce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.08 360)
+			(at 0 5.08 0)
 			(layer "F.Fab")
 			(uuid "1fa5b1fa-a2d0-478c-91e9-efb5dd4f47bb")
 			(effects
@@ -5080,6 +5080,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/footprint_libs/step/WL-SFTW_3528_PLCC4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "footprints:XCVR_RFM95W-868S2"
 		(layer "F.Cu")
@@ -5422,6 +5433,17 @@
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "111f7d85-2fb8-4939-99cb-af7822e4c3bf")
+		)
+		(model "${KIPRJMOD}/footprint_libs/step/RFM95W-868S2.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "footprints:BMI323_BOS-M"
@@ -6594,6 +6616,17 @@
 			(pintype "bidirectional")
 			(clearance 0.1)
 			(uuid "9973dfb5-e7a0-41bb-8fc2-973a667c8868")
+		)
+		(model "${KIPRJMOD}/footprint_libs/step/BMI323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
@@ -9008,7 +9041,7 @@
 		(uuid "a1fcaba5-835e-417d-89ad-78e93e2c145c")
 		(at 102.825 82.18 -90)
 		(property "Reference" "J2"
-			(at -1.28315 -9.360001 180)
+			(at -1.28315 -9.360001 360)
 			(layer "F.SilkS")
 			(uuid "8cf653e3-b3e3-43c7-a88b-691f86521245")
 			(effects
@@ -9474,6 +9507,17 @@
 					(xy 106.625 78.73) (xy 97.625 78.73) (xy 97.625 85.63) (xy 106.625 85.63) (xy 106.625 84.03) (xy 104.325 84.03)
 					(xy 104.325 80.33) (xy 106.625 80.33)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/footprint_libs/step/690-005-299-043.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -9970,6 +10014,17 @@
 			(pinfunction "GROUND")
 			(pintype "power_out")
 			(uuid "a0c04fe4-71cd-4bbc-9d9d-18e45e6304a2")
+		)
+		(model "${KIPRJMOD}/footprint_libs/step/734120114.stp"
+			(offset
+				(xyz 0 0 1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
@@ -11746,6 +11801,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/footprint_libs/step/WL-SFTW_3528_PLCC4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 		(layer "F.Cu")
@@ -12994,6 +13060,17 @@
 			(pintype "output")
 			(uuid "4643c260-6191-412a-a749-8251b2e1b067")
 		)
+		(model "${KIPRJMOD}/footprint_libs/step/LDK320AM33R.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -13801,6 +13878,17 @@
 				(pts
 					(xy 109.2344 94.4295) (xy 111.2156 94.4295) (xy 111.2156 97.5283) (xy 109.2344 97.5283)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/footprint_libs/step/WL-SFTW_3528_PLCC4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
