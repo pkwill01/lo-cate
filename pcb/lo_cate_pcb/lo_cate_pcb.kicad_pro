@@ -482,7 +482,7 @@
       "plot": "manf-files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lo_cate_pcb.step",
       "svg": "",
       "vrml": ""
     },

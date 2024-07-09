@@ -16,6 +16,7 @@ The PCB was designed to be simple, power over USB and be manufactorable using ba
 
 ### PCB TODO 
  - [] Change the Programming header for the STM32 from the 1.27mm pins
- - [] Fix the oscillator circuit to fit into the STM32 design guidlines C19 & C18 should be calculated via C_L = 2*(C_Load - C_Stray) also R14 will need adjusting also 
+ - [] Fix the oscillator circuit to fit into the STM32 design guidlines C19 & C18 should be calculated via C_L = 2*(C_Load - C_Stray) also R14 can be removed from circuit 
+ - [] Fix the LED footprints 
 
 ## Firmware 

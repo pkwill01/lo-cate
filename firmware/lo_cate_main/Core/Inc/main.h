@@ -63,8 +63,8 @@ void Error_Handler(void);
 #define LORA_MISO_GPIO_Port GPIOC
 #define LORA_MOSI_Pin GPIO_PIN_3
 #define LORA_MOSI_GPIO_Port GPIOC
-#define LED2_BLUE_Pin GPIO_PIN_1
-#define LED2_BLUE_GPIO_Port GPIOA
+#define LED2_GREEN_Pin GPIO_PIN_2
+#define LED2_GREEN_GPIO_Port GPIOA
 #define IMU_SCK_Pin GPIO_PIN_5
 #define IMU_SCK_GPIO_Port GPIOA
 #define IMU_MISO_Pin GPIO_PIN_6
@@ -77,22 +77,16 @@ void Error_Handler(void);
 #define LED3_GREEN_GPIO_Port GPIOB
 #define LORA_SCK_Pin GPIO_PIN_13
 #define LORA_SCK_GPIO_Port GPIOB
-#define LED3_RED_Pin GPIO_PIN_6
-#define LED3_RED_GPIO_Port GPIOC
-#define LED3_BLUE_Pin GPIO_PIN_7
-#define LED3_BLUE_GPIO_Port GPIOC
-#define USB_ID_Pin GPIO_PIN_10
-#define USB_ID_GPIO_Port GPIOA
 #define USB_DM_Pin GPIO_PIN_11
 #define USB_DM_GPIO_Port GPIOA
 #define USB_DP_Pin GPIO_PIN_12
 #define USB_DP_GPIO_Port GPIOA
 #define LED2_RED_Pin GPIO_PIN_15
 #define LED2_RED_GPIO_Port GPIOA
+#define LED3_RED_Pin GPIO_PIN_4
+#define LED3_RED_GPIO_Port GPIOB
 #define LED1_RED_Pin GPIO_PIN_6
 #define LED1_RED_GPIO_Port GPIOB
-#define LED1_BLUE_Pin GPIO_PIN_7
-#define LED1_BLUE_GPIO_Port GPIOB
 #define LED1_GREEN_Pin GPIO_PIN_8
 #define LED1_GREEN_GPIO_Port GPIOB
 
