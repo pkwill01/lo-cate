@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -64,7 +64,6 @@ static void MX_TIM4_Init(void);
 static void MX_USB_OTG_FS_USB_Init(void);
 static void MX_USART6_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -80,7 +79,6 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -110,7 +108,7 @@ int main(void)
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
 	int32_t CH1_DC = 0;
-  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+//  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 //  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
 //  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
 
@@ -125,31 +123,25 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+	uint8_t CHIP_ID_REG = 0x00;
+	HAL_Delay(500);
+	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);
+	HAL_Delay(500);
+	uint8_t tx_data[2];
+	uint8_t rx_data[2];
+	tx_data[0] = 0x00;                // read operation
+	tx_data[1] = 0x00;                 // byte to write. 0x00 to read
+	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);
+	HAL_SPI_TransmitReceive(&hspi1, tx_data, rx_data, 2, HAL_MAX_DELAY);
+	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4,  GPIO_PIN_SET);
 	while (1) {
     /* USER CODE END WHILE */
 
-//    /* USER CODE BEGIN 3 */
-//		while (CH1_DC < 65535) {
-//			TIM3->CCR1 = CH1_DC;
-//			TIM3->CCR2 = CH1_DC;
-//			TIM3->CCR3 = CH1_DC;
-//
-//			TIM4->CCR1 = CH1_DC;
-//			TIM4->CCR2 = CH1_DC;
-//			TIM4->CCR3 = CH1_DC;
-//			HAL_Delay(1);
-//		}
-//		while (CH1_DC > 0) {
-//			TIM3->CCR1 = CH1_DC;
-//			TIM3->CCR2 = CH1_DC;
-//			TIM3->CCR3 = CH1_DC;
-//
-//			TIM4->CCR1 = CH1_DC;
-//			TIM4->CCR2 = CH1_DC;
-//			TIM4->CCR3 = CH1_DC;
-//			CH1_DC -= 70;
-//			HAL_Delay(1);
-//		}
+    /* USER CODE BEGIN 3 */
+		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);
+		HAL_SPI_TransmitReceive(&hspi1, tx_data, rx_data, 2, HAL_MAX_DELAY);
+		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4,  GPIO_PIN_SET);
+		HAL_Delay(250);
 	}
   /* USER CODE END 3 */
 }
@@ -224,7 +216,7 @@ static void MX_SPI1_Init(void)
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_64;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -534,7 +526,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(IMU_CSB_GPIO_Port, IMU_CSB_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5|GPIO_PIN_7, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, LORA_RST_Pin|LORA_CSB_Pin|GPIO_PIN_5|GPIO_PIN_7, GPIO_PIN_SET);
 
   /*Configure GPIO pin : PA1 */
   GPIO_InitStruct.Pin = GPIO_PIN_1;
@@ -550,6 +542,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(IMU_CSB_GPIO_Port, &GPIO_InitStruct);
 
+  /*Configure GPIO pins : LORA_RST_Pin LORA_CSB_Pin PB5 PB7 */
+  GPIO_InitStruct.Pin = LORA_RST_Pin|LORA_CSB_Pin|GPIO_PIN_5|GPIO_PIN_7;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
   /*Configure GPIO pins : PA10 USB_DM_Pin USB_DP_Pin */
   GPIO_InitStruct.Pin = GPIO_PIN_10|USB_DM_Pin|USB_DP_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -557,13 +556,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   GPIO_InitStruct.Alternate = GPIO_AF10_OTG_FS;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PB5 PB7 */
-  GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_7;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
