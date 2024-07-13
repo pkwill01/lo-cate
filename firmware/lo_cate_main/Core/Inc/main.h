@@ -79,7 +79,7 @@ void Error_Handler(void);
 #define LORA_RST_GPIO_Port GPIOB
 #define LORA_CSB_Pin GPIO_PIN_2
 #define LORA_CSB_GPIO_Port GPIOB
-#define LORA_SCK_Pin GPIO_PIN_13
+#define LORA_SCK_Pin GPIO_PIN_10
 #define LORA_SCK_GPIO_Port GPIOB
 #define USB_DM_Pin GPIO_PIN_11
 #define USB_DM_GPIO_Port GPIOA
