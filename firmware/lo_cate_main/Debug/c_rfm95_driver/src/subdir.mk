@@ -5,23 +5,23 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c 
+../c_rfm95_driver/src/c_rfm95_driver.c 
 
 OBJS += \
-./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o 
+./c_rfm95_driver/src/c_rfm95_driver.o 
 
 C_DEPS += \
-./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d 
+./c_rfm95_driver/src/c_rfm95_driver.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.o Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.su Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.cyclo: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.c Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
+c_rfm95_driver/src/%.o c_rfm95_driver/src/%.su c_rfm95_driver/src/%.cyclo: ../c_rfm95_driver/src/%.c c_rfm95_driver/src/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I"/home/kinga/Desktop/lo-cate/firmware/lo_cate_main/c_rfm95_driver/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
-clean: clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src
+clean: clean-c_rfm95_driver-2f-src
 
-clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src:
-	-$(RM) ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.cyclo ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.su
+clean-c_rfm95_driver-2f-src:
+	-$(RM) ./c_rfm95_driver/src/c_rfm95_driver.cyclo ./c_rfm95_driver/src/c_rfm95_driver.d ./c_rfm95_driver/src/c_rfm95_driver.o ./c_rfm95_driver/src/c_rfm95_driver.su
 
-.PHONY: clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src
+.PHONY: clean-c_rfm95_driver-2f-src
 
